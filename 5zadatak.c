@@ -2,8 +2,8 @@
 //koja ispisuje element matrice u predzadnjem retku i predzadnjem stupcu.
 #include <stdio.h>
 
-void taj_element(int *c, int a, int b) {
-    int tmp = a*b;
+void taj_element(int *c, int b, int a) {
+    int tmp = a * b;
     b = -a - 2;
     printf("%d", c[tmp + b]);
     return;
@@ -25,5 +25,3 @@ int main(void) {
    return 0;
    
 }
-
-//XXXXXXXXX == 
